@@ -123,12 +123,8 @@ public class modular {
             }
             double subtotal = cantidad * precioUnitario;
             total += subtotal;
-
-            // Muestra el subtotal con 2 decimales
-            System.out.printf("%s - Cantidad: %.2f - Subtotal: %.2f$ \n", producto, cantidad, subtotal);
+            System.out.printf("%s - cantidad: %.2f - Subtotal: %.2f$ \n", producto, cantidad, subtotal);
         }
-
-        // Muestra el total con 2 decimales
-        System.out.printf("Total de la compra: %.2f$ \n", total);
+          System.out.printf("Total de la compra: %.2f$ \n", total);
     }
 }
